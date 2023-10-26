@@ -1,0 +1,80 @@
+/* Estilo del fondo de la página */
+body {
+    background-color: #F4E4D5; /* Color de fondo beige suave */
+}
+
+/* Estilo del título */
+h1 {
+    color: #FF5733; /* Color naranja brillante para el título */
+    font-family: 'Arial', sans-serif; /* Fuente sans-serif común en la web */
+    text-align: center; /* Centra el título horizontalmente */
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #FF5733; /* Fondo de la barra de navegación en naranja brillante */
+}
+
+.navbar-brand, .nav-link {
+    color: #FFF; /* Color de texto blanco para los elementos de navegación */
+}
+
+.navbar-toggler-icon {
+    color: #FFF; /* Color del ícono del botón de navegación */
+}
+
+/* Estilo del carrusel */
+#miCarrusel {
+    margin-top: 20px;
+}
+
+.carousel-item img {
+    width: 100%; /* Asegura que las imágenes se ajusten al ancho del carrusel */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+}
+
+/* Estilo de las diapositivas del carrusel */
+.carousel-caption h3 {
+    color: #FF5733; /* Título en color naranja brillante */
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+}
+
+.carousel-caption p {
+    color: #555; /* Descripción en un gris oscuro */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo de los botones en las diapositivas */
+.carousel-caption .btn {
+    background-color: #FF5733; /* Fondo naranja brillante para los botones */
+    color: #FFF; /* Color de texto blanco para los botones */
+    font-family: 'Arial', sans-serif;
+    margin-top: 10px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: transparent; /* Fondo transparente para las flechas de control */
+    border: none; /* Sin borde en las flechas de control */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    color: #FF5733; /* Flechas de control en color naranja brillante */
+    font-size: 30px;
+}
+
+/* Estilo del modal de confirmación */
+.modal-content {
+    background-color: #FFF; /* Fondo blanco para el modal de confirmación */
+    padding: 20px; /* Espaciado interno en el modal */
+    border: 1px solid #DDD; /* Borde del modal con un color gris claro */
+    text-align: center; /* Centra el contenido del modal */
+}
+
+.modal-title {
+    color: #FF5733; /* Color naranja brillante para el título del modal */
+}
+
+.modal-body {
+    color: #333; /* Color de texto oscuro para el cuerpo del modal */
+}

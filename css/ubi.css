@@ -1,0 +1,128 @@
+/* Estilo del fondo de la página */
+body {
+    background-color: #F4E4D5; /* Color de fondo beige suave */
+}
+
+/* Estilo del título */
+h1 {
+    color: #FF5733; /* Color naranja brillante para el título */
+    font-family: 'Arial', sans-serif; /* Fuente sans-serif común en la web */
+    text-align: center; /* Centra el título horizontalmente */
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #FF5733; /* Fondo de la barra de navegación en naranja brillante */
+}
+
+.navbar-brand, .nav-link {
+    color: #FFF; /* Color de texto blanco para los elementos de navegación */
+}
+
+.navbar-toggler-icon {
+    color: #FFF; /* Color del ícono del botón de navegación */
+}
+
+/* Estilo de los productos */
+.product {
+    text-align: center; /* Centra el contenido de los productos */
+    margin: 20px; /* Espacio alrededor de cada producto */
+    padding: 20px; /* Espacio interno dentro de cada producto */
+    border: 1px solid #DDD; /* Borde del producto con un color gris claro */
+    background-color: #FFF; /* Fondo blanco para los productos */
+}
+
+.product img {
+    max-width: 100%; /* Asegura que las imágenes no sean más anchas que su contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+}
+
+.product p {
+    font-size: 18px; /* Tamaño de fuente para la descripción del producto */
+    color: #333; /* Color de texto oscuro para la descripción */
+}
+
+/* Estilo del botón "Agregar al carrito" */
+.add-to-cart {
+    background-color: #FF5733; /* Fondo naranja brillante para el botón */
+    color: #FFF; /* Color de texto blanco para el botón */
+    border: none; /* Sin borde en el botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    cursor: pointer; /* Cursor de mano al pasar el ratón sobre el botón */
+}
+
+.add-to-cart:hover {
+    background-color: #E54929; /* Color de fondo más oscuro cuando se pasa el ratón */
+}
+
+/* Estilo del modal de confirmación */
+.modal-content {
+    background-color: #FFF; /* Fondo blanco para el modal de confirmación */
+    padding: 20px; /* Espaciado interno en el modal */
+    border: 1px solid #DDD; /* Borde del modal con un color gris claro */
+    text-align: center; /* Centra el contenido del modal */
+}
+
+.modal-title {
+    color: #FF5733; /* Color naranja brillante para el título del modal */
+}
+
+.modal-body {
+    color: #333; /* Color de texto oscuro para el cuerpo del modal */
+}
+/* Estilo de los productos */
+.product {
+    text-align: center; /* Centra el contenido de los productos */
+    margin: 20px; /* Espacio alrededor de cada producto */
+    padding: 20px; /* Espacio interno dentro de cada producto */
+    border: 1px solid #DDD; /* Borde del producto con un color gris claro */
+    background-color: #FFF; /* Fondo blanco para los productos */
+}
+
+.product img {
+    max-width: 100%; /* Asegura que las imágenes no sean más anchas que su contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+}
+
+.product p {
+    font-size: 18px; /* Tamaño de fuente para la descripción del producto */
+    color: #333; /* Color de texto oscuro para la descripción */
+}
+
+/* Estilo del botón "Agregar al carrito" */
+.add-to-cart {
+    background-color: #FF5733; /* Fondo naranja brillante para el botón */
+    color: #FFF; /* Color de texto blanco para el botón */
+    border: none; /* Sin borde en el botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    cursor: pointer; /* Cursor de mano al pasar el ratón sobre el botón */
+}
+
+.add-to-cart:hover {
+    background-color: #E54929; /* Color de fondo más oscuro cuando se pasa el ratón */
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px; /* Tamaño de fuente más grande */
+}
+
+#mapa {
+    width: 80%; /* Ancho del mapa al 80% del contenedor */
+    height: 400px; /* Altura deseada para el mapa */
+    margin-top: 20px; /* Espacio entre el texto y el mapa */
+}
+
+/* Añade aquí los estilos específicos para tu mapa, como colores de fondo, bordes, etc. */
