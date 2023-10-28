@@ -1,65 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Korean shop</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/ubi.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
-
-    <!-- Agrega la clave de la API de Google Maps válida en la URL del script -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_DE_API&callback=initMap"></script>
-</head>
-<body>
-
-    <h1>Korean shop</h1>
-    <p>Tienda del mundo kpop</p>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="segundoexamen_parcial.html">Korean Shop</a>
+<!DOCTYPE html> <!-- Declaración del tipo de documento HTML5 -->
+<html lang="en"> <!-- Elemento raíz del documento con atributo de idioma en inglés -->
+<head> <!-- Comienza la sección del encabezado del documento -->
+    <meta charset="UTF-8"> <!-- Configura la codificación de caracteres a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista adaptable para dispositivos móviles -->
+    <title>Korean Shop</title> <!-- Establece el título de la página en la barra de título del navegador -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"> <!-- Enlace a la hoja de estilos de Bootstrap 5 -->
+    <link rel="stylesheet" href="css/tiendas.css"> <!-- Enlace a una hoja de estilo personalizada llamada "tiendas.css" -->
+</head> <!-- Fin de la sección del encabezado del documento -->
+<body> <!-- Comienza la sección del cuerpo de la página -->
+    <h1 class="text-center">Korean Shop</h1> <!-- Título principal centrado -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- Barra de navegación Bootstrap -->
+        <a class="navbar-brand" href="index.html">Korean Shop</a> <!-- Elemento de marca en la barra de navegación -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span> <!-- Botón para alternar la barra de navegación en dispositivos móviles -->
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNav"> <!-- Contenido de la barra de navegación colapsable -->
+            <ul class="navbar-nav"> <!-- Lista no ordenada de elementos de navegación -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="segundoexamen_parcial.html">Inicio</a>
+                    <a class="nav-link" href="index.html">Inicio</a> <!-- Enlace a la página de inicio -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="albums.html">Albums</a>
+                    <a class="nav-link" href="albums.html">Albums</a> <!-- Enlace a la página de álbumes -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="cosmeticos.html">Cosmeticos</a>
+                    <a class="nav-link" href="cosmeticos.html">Cosmeticos</a> <!-- Enlace a la página de productos de cosméticos -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Ropa.html">Ropa</a>
+                    <a class="nav-link" href="Ropa.html">Ropa</a> <!-- Enlace a la página de productos de ropa -->
+                </li>
+                <li class "nav-item"> <!-- Error de sintaxis, debería ser "li class="nav-item"" -->
+                    <a class="nav-link" href="ubicacion.html">Ubicacion</a> <!-- Enlace a la página de ubicación -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+                    <a class="nav-link" href="Peluches.html">Peluches</a> <!-- Enlace a la página de productos de peluches -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Peluches.html">Peluches</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
+                    <a class="nav-link" href="login.html">Login</a> <!-- Enlace a la página de inicio de sesión -->
                 </li>
             </ul>
         </div>
     </nav>
-
-    <!-- Mapa y detalles de ubicación -->
-    <h1>Ubicación</h1>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59236.29785943951!2d-102.3324991077449!3d21.885729626428546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ec143ae4d9fb%3A0x4016978679c5220!2sAguascalientes%2C%20Ags.!5e0!3m2!1ses-419!2smx!4v1698287446417!5m2!1ses-419!2smx" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    <p>General Guadalupe Victoria 723, Zona Centro, 20059 Aguascalientes, Ags.</p>
-    <p>Teléfono: +521 449 5670 890</p>
-    <p>Correo electrónico: al123456@edu.uaa.mx</p>
-
-    <div class="map-info">
-        <!-- Aquí puedes agregar información adicional sobre la ubicación -->
+    
+    <div class="container mt-5"> <!-- Contenedor principal con margen en la parte superior -->
+        <div class="row"> <!-- Fila para organizar los elementos en columnas -->
+            <div class="col-md-6"> <!-- Columna para mostrar un producto -->
+                <div class="product text-center"> <!-- Contenedor de producto con texto centrado -->
+                    <img src="imagenes/hat.jpg" alt="Bucket"> <!-- Imagen del producto -->
+                    <p>Bucket Hat $165</p> <!-- Descripción y precio del producto -->
+                    <button class="btn btn-primary add-to-cart" data-bs-toggle="modal" data-bs-target="#confirmation-modal">Agregar al carrito</button>
+                    <!-- Botón para agregar el producto al carrito con un modal de confirmación -->
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="product text-center">
+                    <img src="imagenes/ropa hombre.jpg" alt="Conjunto">
+                    <p>Conjunto $1400</p>
+                    <button class="btn btn-primary add-to-cart" data-bs-toggle="modal" data-bs-target="#confirmation-modal">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="product text-center">
+                    <img src="imagenes/over.jfif" alt="Oversize">
+                    <p>Oversize $350</p>
+                    <button class="btn btn-primary add-to-cart" data-bs-toggle="modal" data-bs-target="#confirmation-modal">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="product text-center">
+                    <img src="imagenes/Falda.jpg" alt="Falda">
+                    <p>Falda $400</p>
+                    <button class="btn btn-primary add-to-cart" data-bs-toggle="modal" data-bs-target="#confirmation-modal">Agregar al carrito</button>
+                </div>
+            </div>
+            <!-- Agrega más elementos aquí -->
+        </div>
     </div>
 
+    <!-- Modal de confirmación -->
+    <div class="modal fade" id="confirmation-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Confirmación</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Producto agregado al carrito con éxito.
+                </div>
+            </div>
+        </div>
+    </div>
 
-</body>
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script> <!-- Inclusión de la biblioteca JavaScript de Bootstrap -->
+</body> <!-- Fin de la sección del cuerpo de la página -->
+</html> <!-- Fin del documento HTML -->

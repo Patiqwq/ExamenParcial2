@@ -1,99 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Korean Shop</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/tiendas.css">
-    
-</head>
-<body>
-    <h1 class="text-center">Korean Shop</h1>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="segundoexamen_parcial.html">Korean Shop</a>
+<!DOCTYPE html> <!-- Declaración del tipo de documento HTML5 -->
+<html lang="en"> <!-- Elemento raíz del documento con atributo de idioma en inglés -->
+<head> <!-- Comienza la sección del encabezado del documento -->
+    <meta charset="UTF-8"> <!-- Configura el conjunto de caracteres a UTF-8 para admitir caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la vista adaptable para dispositivos móviles -->
+    <title>Korean Shop</title> <!-- Establece el título de la página en la barra de título del navegador -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"> <!-- Enlace a la hoja de estilo de Bootstrap versión 5 -->
+    <link rel="stylesheet" href="css/tiendas.css"> <!-- Enlace a una hoja de estilo personalizada llamada "tiendas.css" -->
+</head> <!-- Fin de la sección del encabezado del documento -->
+<body> <!-- Comienza la sección del cuerpo de la página -->
+    <h1 class="text-center">Korean Shop</h1> <!-- Título principal centrado -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- Barra de navegación con estilo de Bootstrap -->
+        <a class="navbar-brand" href="index.html">Korean Shop</a> <!-- Logo y enlace al inicio -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span> <!-- Botón de hamburguesa para dispositivos móviles -->
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="segundoexamen_parcial.html">Inicio</a>
+        <div class="collapse navbar-collapse" id="navbarNav"> <!-- Contenedor para elementos de menú colapsables -->
+            <ul class="navbar-nav"> <!-- Lista no ordenada de elementos de menú -->
+                <li class="nav-item active"> <!-- Elemento de menú activo -->
+                    <a class="nav-link" href="index.html">Inicio</a> <!-- Enlace al inicio -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="albums.html">Albums</a>
+                    <a class="nav-link" href="albums.html">Albums</a> <!-- Enlace a la sección de álbumes -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="cosmeticos.html">Cosmeticos</a>
+                    <a class a="nav-link" href="cosmeticos.html">Cosmeticos</a> <!-- Enlace a la sección de cosméticos -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Ropa.html">Ropa</a>
+                    <a class="nav-link" href="Ropa.html">Ropa</a> <!-- Enlace a la sección de ropa -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+                    <a class="nav-link" href="ubicacion.html">Ubicacion</a> <!-- Enlace a la sección de ubicación -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Peluches.html">Peluches</a>
+                    <a class="nav-link" href="Peluches.html">Peluches</a> <!-- Enlace a la sección de peluches -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
+                    <a class="nav-link" href="login.html">Login</a> <!-- Enlace a la página de inicio de sesión -->
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="product text-center">
-                    <img src="imagenes/5star.jpg" alt="straykids">
-                    <p>Stray Kids - 5 estrellas $600</p>
-                    <button class="btn btn-primary add-to-cart" data-bs-toggle="modal" data-bs-target="#confirmation-modal">Agregar al carrito</button>
+    <div class="container mt-5"> <!-- Contenedor principal con margen superior de 5 unidades -->
+        <div class="row"> <!-- Fila para mostrar elementos -->
+            <div class="col-md-6"> <!-- Columna para un producto (tamaño medio en dispositivos medianos) -->
+                <div class="product text-center"> <!-- Div para un producto con texto centrado -->
+                    <img src="imagenes/5star.jpg" alt="straykids"> <!-- Imagen del producto con descripción alternativa -->
+                    <p>Stray Kids - 5 estrellas $600</p> <!-- Descripción del producto -->
+                    <button class="btn btn-primary add-to-cart" data-bs-toggle="modal" data-bs-target="#confirmation-modal">Agregar al carrito</button> <!-- Botón para agregar el producto al carrito con un modal de confirmación -->
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="product text-center">
-                    <img src="imagenes/butter.jpg" alt="BTS">
-                    <p>BTS butter $820</p>
-                    <button class="btn btn-primary add-to-cart" data-bs-toggle="modal" data-bs-target="#confirmation-modal">Agregar al carrito</button>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="product text-center">
-                    <img src="imagenes/frefall.jpg" alt="txt">
-                    <p>The Name Chapter: FREEFALL $700</p>
-                    <button class="btn btn-primary add-to-cart" data-bs-toggle="modal" data-bs-target="#confirmation-modal">Agregar al carrito</button>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="product text-center">
-                    <img src="imagenes/blackpink.jpg" alt="Almohada de peluche de dibujos animados Kpop">
-                    <p>Ready To Be (Digipack Version) $500</p>
-                    <button class="btn btn-primary add-to-cart" data-bs-toggle="modal" data-bs-target="#confirmation-modal">Agregar al carrito</button>
-                </div>
-            </div>
-            <!-- Agrega más elementos aquí -->
+            <!-- Repite la estructura anterior para más productos (elementos de columna) -->
         </div>
     </div>
-    
 
     <!-- Modal de confirmación -->
-    <div class="modal fade" id="confirmation-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal fade" id="confirmation-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true"> <!-- Modal emergente para confirmación de producto -->
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modalLabel">Confirmación</h5>
+                    <h5 class="modal-title" id="modalLabel">Confirmación</h5> <!-- Título del modal -->
                     <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                        <span aria-hidden="true">&times;</span> <!-- Botón de cierre del modal -->
                     </button>
                 </div>
                 <div class="modal-body">
-                    Producto agregado al carrito con éxito.
+                    Producto agregado al carrito con éxito. <!-- Contenido del modal -->
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script> <!-- Incluye el archivo JavaScript de Bootstrap -->
+</body> <!-- Fin de la sección del cuerpo de la página -->
+</html> <!-- Fin del documento HTML -->

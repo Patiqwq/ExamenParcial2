@@ -1,54 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Korean Shop</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/tiendas.css">
-    
-</head>
-<body>
-    <h1 class="text-center">Korean Shop</h1>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="segundoexamen_parcial.html">Korean Shop</a>
+<!DOCTYPE html> <!-- Declaración del tipo de documento HTML5 -->
+<html lang="en"> <!-- Elemento raíz del documento con atributo de idioma en inglés -->
+<head> <!-- Comienza la sección del encabezado del documento -->
+    <meta charset="UTF-8"> <!-- Configura la codificación de caracteres a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista adaptable para dispositivos móviles -->
+    <title>Korean Shop</title> <!-- Establece el título de la página en la barra de título del navegador -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"> <!-- Enlace a la hoja de estilos de Bootstrap 5 -->
+    <link rel="stylesheet" href="css/tiendas.css"> <!-- Enlace a una hoja de estilo personalizada llamada "tiendas.css" -->
+</head> <!-- Fin de la sección del encabezado del documento -->
+<body> <!-- Comienza la sección del cuerpo de la página -->
+    <h1 class="text-center">Korean Shop</h1> <!-- Título principal centrado -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- Barra de navegación Bootstrap -->
+        <a class="navbar-brand" href="index.html">Korean Shop</a> <!-- Elemento de marca en la barra de navegación -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span> <!-- Botón para alternar la barra de navegación en dispositivos móviles -->
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNav"> <!-- Contenido de la barra de navegación colapsable -->
+            <ul class="navbar-nav"> <!-- Lista no ordenada de elementos de navegación -->
                 <li class="nav-item active">
-                    <a class="nav-link" href="segundoexamen_parcial.html">Inicio</a>
+                    <a class="nav-link" href="index.html">Inicio</a> <!-- Enlace a la página de inicio -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="albums.html">Albums</a>
+                    <a class="nav-link" href="albums.html">Albums</a> <!-- Enlace a la página de álbumes -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="cosmeticos.html">Cosmeticos</a>
+                    <a class="nav-link" href="cosmeticos.html">Cosmeticos</a> <!-- Enlace a la página de productos de cosméticos -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Ropa.html">Ropa</a>
+                    <a class="nav-link" href="Ropa.html">Ropa</a> <!-- Enlace a la página de productos de ropa -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+                    <a class="nav-link" href="ubicacion.html">Ubicacion</a> <!-- Enlace a la página de ubicación -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Peluches.html">Peluches</a>
+                    <a class="nav-link" href="Peluches.html">Peluches</a> <!-- Enlace a la página de productos de peluches -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="login.html">Login</a>
+                    <a class="nav-link" href="login.html">Login</a> <!-- Enlace a la página de inicio de sesión -->
                 </li>
             </ul>
         </div>
     </nav>
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="product text-center">
-                    <img src="imagenes/straykids.jpg" alt="straykids">
-                    <p>Peluche straykids $250</p>
+    
+    <div class="container mt-5"> <!-- Contenedor principal con margen en la parte superior -->
+        <div class="row"> <!-- Fila para organizar los elementos en columnas -->
+            <div class="col-md-6"> <!-- Columna para mostrar un producto -->
+                <div class="product text-center"> <!-- Contenedor de producto con texto centrado -->
+                    <img src="imagenes/straykids.jpg" alt="straykids"> <!-- Imagen del producto -->
+                    <p>Peluche straykids $250</p> <!-- Descripción y precio del producto -->
                     <button class="btn btn-primary add-to-cart" data-bs-toggle="modal" data-bs-target="#confirmation-modal">Agregar al carrito</button>
+                    <!-- Botón para agregar el producto al carrito con un modal de confirmación -->
                 </div>
             </div>
             <div class="col-md-6">
@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="product text-center">
+                <div class "product text-center"> <!-- Error de sintaxis, debería ser "div class="product text-center"" -->
                     <img src="imagenes/grandes.jfif" alt="BTS">
                     <p>Muñeco De Peluche De 12cm BTS $100</p>
                     <button class="btn btn-primary add-to-cart" data-bs-toggle="modal" data-bs-target="#confirmation-modal">Agregar al carrito</button>
@@ -75,7 +75,6 @@
             <!-- Agrega más elementos aquí -->
         </div>
     </div>
-    
 
     <!-- Modal de confirmación -->
     <div class="modal fade" id="confirmation-modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
@@ -94,6 +93,6 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
-</body>
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script> <!-- Inclusión de la biblioteca JavaScript de Bootstrap -->
+</body> <!-- Fin de la sección del cuerpo de la página -->
+</html> <!-- Fin del documento HTML -->
